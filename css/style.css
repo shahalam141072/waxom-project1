@@ -1,0 +1,188 @@
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    background: rgba(17, 17, 17, 0.664);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: 0.4s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: teal;
+
+}
+
+/* === banner === */
+
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.banner_overlay {
+    background: rgba(17, 17, 17, 0.7);
+    padding: 380px 0;
+}
+
+.banner_text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.banner_text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 56px;
+    padding-top: 20px;
+}
+
+
+.banner_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 20px;
+}
+
+.banner_text a {
+    display: inline-block;
+    margin-top: 50px;
+    background: #998675;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* ======= service section css ======= */
+
+#service {
+    padding: 80px 0;
+}
+
+.service_item{
+    margin-top: 30px;
+}
+
+
+.service_item h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.service_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.service_item p::after {
+    position: absolute;
+    content: '';
+    top: 100px;
+    left: 50%;
+    background: #f1eee9;
+    width: 80px;
+    height: 3px;
+    transform: translateX(-50%);
+}
+
+.service_item:hover.service_item i {
+    color: #c7b299;
+}
+
+
+.service_item:hover.service_item p::after {
+    background: #c7b299;
+}
+
+/* ======= portfolio section css ======== */
+
+#portfolio{
+    padding-top:80px;
+    background: #fbfaf8; 
+}
+
+.portfolio_text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 20px;
+    color:#555555;
+}
+
+.portfolio_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#8c8c8c;
+}
+
+.portfolio_img{
+    width:100%;
+}
+
+.portfolio_img img{
+    width:100%;
+}
+/* ============ purchase section css =========== */
+
+#purchase{
+    background: linear-gradient(to right, #211b19 , #4e3427);
+    padding: 50px 0;
+}
+
+.purchase_text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#615855;
+}
+
+.purchase_text h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 5px;
+    color:#fff;
+}
+
+.purchase_text span{
+    color:#c7b299;
+}
+
+.extra a{
+    display: inline-block;
+    background: #998675;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+    border-bottom:3px solid saddlebrown;
+}
